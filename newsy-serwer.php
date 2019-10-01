@@ -32,7 +32,7 @@
 		$autor = $row['autor'];
 		$email = $row['email'];
 		
-		//Wysyłanie przykładowego maila do zapisanego autora w serwisie
+		//Wysyłanie przykładowego maila do zapisanego autora w serwisie newsów
 		$tresc = "Imie: $imie. Oto wiadomość wysłana z naszego wewnętrznego systemu Newsów.";
 		$header =  "From: A L \nContent-Type:".
 				   ' text/plain;charset="UTF-8"'.
